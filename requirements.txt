@@ -4,3 +4,4 @@ pyttsx3
 beautifulsoup4
 requests
 customtkinter
+
