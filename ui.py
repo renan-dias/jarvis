@@ -8,6 +8,7 @@ class JarvisUI:
         self.window.title("Renan AI")
         self.window.geometry("800x600")
 
+
         self.voice = VoiceAssistant()
         self.ai = GeminiAI(api_key="SUA_CHAVE_AQUI")
 
