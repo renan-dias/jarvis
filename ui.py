@@ -5,9 +5,9 @@ from modules.ai import GeminiAI
 class JarvisUI:
     def __init__(self):
         self.window = ctk.CTk()
-        self.window.title("Renan AI")
-        self.window.geometry("800x600")
 
+        self.window.title("Jarvis AI")
+        self.window.geometry("600x400")
 
         self.voice = VoiceAssistant()
         self.ai = GeminiAI(api_key="SUA_CHAVE_AQUI")
