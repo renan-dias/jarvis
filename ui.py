@@ -5,7 +5,6 @@ from modules.ai import GeminiAI
 class JarvisUI:
     def __init__(self):
         self.window = ctk.CTk()
-
         self.window.title("Jarvis AI")
         self.window.geometry("600x400")
 
